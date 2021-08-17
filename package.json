@@ -1,7 +1,7 @@
 {
-  "name": "@mapbox/mapbox-gl-native",
+  "name": "@amigocloud/mapbox-gl-native",
   "version": "5.0.0",
-  "description": "Renders map tiles with Mapbox GL",
+  "description": "Renders map tiles with Mapbox GL. This fork aplied the fix for https://github.com/mapbox/vector-tile/issues/55. For now, it only supports Node 8 and 10. ",
   "keywords": [
     "mapbox",
     "gl"
@@ -9,13 +9,14 @@
   "main": "platform/node/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mapbox/mapbox-gl-native.git"
+    "url": "https://github.com/amigocloud/mapbox-gl-native.git"
   },
   "license": "BSD-2-Clause",
   "dependencies": {
     "@mapbox/cmake-node-module": "^1.2.0",
+    "@mapbox/node-pre-gyp": "^1.0.5",
     "minimatch": "^3.0.4",
-    "node-pre-gyp": "^0.10.2",
+    "node-pre-gyp-github": "^1.4.3",
     "npm-run-all": "^4.0.2"
   },
   "devDependencies": {
@@ -60,8 +61,8 @@
   "binary": {
     "module_name": "mbgl",
     "module_path": "./lib/{node_abi}",
-    "host": "https://mapbox-node-binary.s3.amazonaws.com",
-    "remote_path": "./{name}/v{version}",
+    "host": "https://github.com/amigocloud/mapbox-gl-native/releases/download/",
+    "remote_path": "{version}",
     "package_name": "{node_abi}-{platform}-{arch}-{configuration}.tar.gz"
   }
 }

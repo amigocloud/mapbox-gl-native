@@ -1,6 +1,8 @@
-# Mapbox GL Native
+# AmigoCloud Mapbox GL Native
 
-[![Circle CI build status](https://circleci.com/gh/mapbox/mapbox-gl-native.svg?style=shield)](https://circleci.com/gh/mapbox/workflows/mapbox-gl-native/tree/master) [![Coverage Status](https://codecov.io/gh/mapbox/mapbox-gl-native/branch/master/graph/badge.svg)](https://codecov.io/gh/mapbox/mapbox-gl-native)
+This is a fork of the oficial [mapbox-gl-native](https://github.com/mapbox/mapbox-gl-native) repo that changed the reference of the vector-tile submodule to a [new version](https://github.com/amigocloud/vector-tile) that solves the issue [getValue does not handle layer with key duplicates](https://github.com/mapbox/vector-tile/issues/55). 
+
+## Mapbox GL Native
 
 A C++ library that powers customizable vector maps in native applications on multiple platforms by taking stylesheets that conform to the [Mapbox Style Specification](https://docs.mapbox.com/mapbox-gl-js/style-spec/), applying them to vector tiles that conform to the [Mapbox Vector Tile Specification](https://github.com/mapbox/vector-tile-spec/), and rendering them using OpenGL or Metal.
 
