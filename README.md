@@ -14,7 +14,7 @@ To embed interactive maps into a native application using a platform-specific la
 
 [Mapbox GL JS](https://github.com/mapbox/mapbox-gl-js) is the WebGL-based counterpart to Mapbox GL Native that is designed for use on the Web.
 
-## [Developing](DEVELOPING.md)
+## [Developing](./platform/node/DEVELOPING.md)
 
 We use [CMake](https://cmake.org/cmake/help/latest/) to build Mapbox GL Native
 for various platforms, including Linux, Android, iOS, macOS and Windows. The

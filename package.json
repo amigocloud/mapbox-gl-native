@@ -9,11 +9,12 @@
   "main": "platform/node/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amigocloud/mapbox-gl-native.git"
+    "url": "git+https://github.com/amigocloud/mapbox-gl-native.git"
   },
   "license": "BSD-2-Clause",
   "dependencies": {
     "@mapbox/cmake-node-module": "^1.2.0",
+    "@mapbox/mapbox-gl-styles": "^2.1.1",
     "@mapbox/node-pre-gyp": "^1.0.5",
     "minimatch": "^3.0.4",
     "node-pre-gyp-github": "^1.4.3",
@@ -35,7 +36,6 @@
     "jsonwebtoken": "^8.3.0",
     "lodash": "^4.16.4",
     "lodash.template": "4.5.0",
-    "mapbox-gl-styles": "2.0.2",
     "pixelmatch": "^4.0.2",
     "pngjs": "^3.4.0",
     "pretty-bytes": "^5.1.0",
@@ -64,5 +64,14 @@
     "host": "https://github.com/amigocloud/mapbox-gl-native/releases/download/",
     "remote_path": "{version}",
     "package_name": "{node_abi}-{platform}-{arch}-{configuration}.tar.gz"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/amigocloud/mapbox-gl-native/issues"
+  },
+  "homepage": "https://github.com/amigocloud/mapbox-gl-native#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }

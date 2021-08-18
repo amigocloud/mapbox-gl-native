@@ -56,7 +56,7 @@ If you want to publish you own version of the node package to NPM, you must need
 ./node_modules/.bin/node-pre-gyp package 
 
 # Publish the release package to GitHub
-set NODE_PRE_GYP_GITHUB_TOKEN=${GITHUB_TOKEN} 
+export NODE_PRE_GYP_GITHUB_TOKEN=${GITHUB_TOKEN} 
 ./node_modules/.bin/node-pre-gyp-github publish
 
 # Publish the Node package to NPM
