@@ -19,6 +19,8 @@ The following dependencies are platform-specific to the OS you are using to buil
 - mesa-common-dev
 - libuv1
 - libuv1-dev
+- libjpeg-dev
+- libcurl4-openssl-dev
 
 **MacOS:**
 

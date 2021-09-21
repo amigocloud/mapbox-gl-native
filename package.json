@@ -1,6 +1,6 @@
 {
   "name": "@amigocloud/mapbox-gl-native",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "description": "Renders map tiles with Mapbox GL. This fork aplied the fix for https://github.com/mapbox/vector-tile/issues/55. For now, it only supports Node 8 and 10. ",
   "keywords": [
     "mapbox",
@@ -25,7 +25,6 @@
     "@mapbox/mvt-fixtures": "3.5.1",
     "@octokit/plugin-retry": "^2.2.0",
     "@octokit/rest": "^16.0.0",
-    "aws-sdk": "^2.285.1",
     "csscolorparser": "~1.0.2",
     "d3-queue": "3.0.7",
     "diff": "4.0.1",
